@@ -35,10 +35,11 @@ Claude AI가 1:1로 영어를 가르쳐 주는 Windows 데스크톱 앱입니다
 
 ## 처음 시작: API 키 넣기
 
-이 앱은 AI 사용료를 **본인의 Anthropic(Claude) 또는 OpenAI(GPT) 계정에서 직접** 내는 방식이에요(개발자에게 가는 돈은 없어요).
+이 앱은 AI 사용료를 **본인의 Anthropic(Claude), OpenAI(GPT), Google(Gemini) 계정 중 하나에서 직접** 내는 방식이에요(개발자에게 가는 돈은 없어요).
 
 - **Claude (기본)**: https://console.anthropic.com 가입 → **Billing**에서 크레딧 충전 → **API Keys** → **Create Key**로 키(`sk-ant-…`)를 만들어 복사
 - **GPT**: https://platform.openai.com 가입 → 결제 등록·크레딧 충전 → **API keys**에서 키(`sk-…`)를 만들어 복사
+- **Gemini**: https://aistudio.google.com → **API 키 만들기**(결제 설정 필요)로 키를 만들어 복사
 
 앱을 처음 켜면 나오는 창에 붙여 넣으면 끝. 어느 회사 키인지는 앱이 알아봐요. 키는 이 PC에만 저장되고 동기화하지 않아요.
 
@@ -52,6 +53,7 @@ Claude AI가 1:1로 영어를 가르쳐 주는 Windows 데스크톱 앱입니다
 | Claude Sonnet | 대부분의 레슨에 충분 | 약 절반 |
 | Claude Haiku | 회화·연습·단어 복습에 추천 | 훨씬 저렴 |
 | GPT-6.1 Sol / Terra | OpenAI 키로 쓰는 중간·저가 모델 | Sonnet보다 조금 싸거나(Sol) 절반(Terra) |
+| Gemini 4 Neon | Google 키로 쓰는 상위 모델 | Sonnet보다 조금 비싸고 Opus보다 싸요 |
 
 실제 비용은 대화 길이와 양에 따라 달라요. 영어 학습은 Haiku로도 대부분 충분하니, 비용이 걱정되면 설정에서 Haiku를 골라 보세요.
 긴 대화를 오래 쉬었다가 이어 가면 첫 답이 비싸지는데, 그럴 땐 앱이 "새로 시작 / 이어 가기"를 먼저 물어봐요.
